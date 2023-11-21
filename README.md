@@ -7,9 +7,11 @@
 - Lembrando que os campos cpf e email são chaves unicas, não podendo ser repetidas na mesma tabela
 ## Modelagem
 ### Modelo Conceitual
-![image](https://github.com/Squad19Rpro/LibrasAcademySpring/assets/130229709/e0768073-a208-408e-906f-0cc734130dea)
+![image](https://github.com/Squad19Rpro/LibrasAcademySpring/assets/130229709/a84888eb-b823-4c90-97c7-e4b1f91546f7)
+
 ### Modelo Lógico
-![image](https://github.com/Squad19Rpro/LibrasAcademySpring/assets/130229709/b023ed72-1058-47c3-a860-69c02b8664fd)
+![image](https://github.com/Squad19Rpro/LibrasAcademySpring/assets/130229709/ce032dfc-0737-48a6-af0c-9489be2d6f72)
+
 ## Login que leva para a area ADM
 ![image](https://github.com/Squad19Rpro/LibrasAcademySpring/assets/130229709/3368acdc-7d7b-429a-ac75-29b6fc382e09)
 
