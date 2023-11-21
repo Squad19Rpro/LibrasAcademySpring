@@ -12487,3 +12487,173 @@ nav{
   width: 100%;
   margin: auto;
 }
+
+/* side curso */
+
+.page-wrapper {
+  height: 100vh;
+}
+
+#sidebar.toggled {
+  transform: translateX(-260px);
+}
+
+/*-----------sidebar-wrapper-------*/
+
+.sidebar-wrapper {
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  background-color: #37517e;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+  z-index: 999;
+}
+
+#sidebar .custom-menu {
+  display: inline-block;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  z-index: 222;
+  margin-right: -20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#sidebar .custom-menu .btn {
+  background: 0 0;
+  border-color: transparent;
+}
+
+#sidebar .custom-menu .btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+}
+
+/*  #sidebar .custom-menu button:focus {
+  box-shadow: none;
+} */
+
+
+#sidebar .custom-menu .btn:after {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  transform: rotate(45deg);
+  background: #37517e;
+  border-radius: 10px;
+}
+
+#sidebar .custom-menu .btn i {
+  margin-right: -40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+.sidebar-content {
+  max-height: calc(100% - 10px);
+  height: calc(100% - 10px);
+  overflow-y: auto;
+  position: relative;
+}
+
+
+.sidebar-wrapper .sidebar-brand>a {
+  text-transform: uppercase;
+  font-weight: bold;
+  flex-grow: 1;
+  color: #818896;
+  text-decoration: none;
+}
+
+.sidebar-wrapper .sidebar-brand {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group-text i {
+  color: #898989;
+}
+
+#sidebar ul>li {
+  padding: 0px 0px;
+}
+
+
+#sidebar ul>li.active>a {
+  color: #818896;
+}
+
+#sidebar ul>li.active>a span {
+  color: #818896;
+  font-weight: 500;
+}
+
+#sidebar ul li:hover>a i {
+  color: #19fffd;
+}
+
+#sidebar ul li a:hover {
+  color: #818896;
+}
+
+#sidebar ul.components {
+  padding: 12px 0;
+}
+
+.sidebar-menu>ul>li a {
+  padding: 7px 30px 7px 20px;
+  line-height: 30px;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  font-weight: 400;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-menu .header-menu span {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px 20px 5px 20px;
+  display: inline-block;
+}
+
+.menu {
+  background-color: #37517e;
+}
+
+
+
+.menu>li a:before {
+  content: "\f111";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 8px;
+}
+
+
+.dropdown-toggle::after {
+  position: absolute;
+  right: 18px;
+  border: none !important;
+  color: #c9c9c9;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f105';
+  top: 10px;
+}
