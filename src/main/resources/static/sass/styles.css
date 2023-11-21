@@ -12646,14 +12646,3 @@ nav{
   font-size: 8px;
 }
 
-
-.dropdown-toggle::after {
-  position: absolute;
-  right: 18px;
-  border: none !important;
-  color: #c9c9c9;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: '\f105';
-  top: 10px;
-}
